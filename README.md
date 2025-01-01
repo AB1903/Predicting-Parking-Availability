@@ -1,5 +1,3 @@
-# Predicting-Parking-Availability
-
 # Parking Availability Prediction
 
 This repository contains a complete pipeline for predicting parking availability using a combination of historical data, weather data, and road features. The project involves data preprocessing, feature engineering, and building a Random Forest regression model to make predictions.
