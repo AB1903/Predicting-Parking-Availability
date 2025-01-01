@@ -35,9 +35,6 @@ print(final_df.head()) # showing first few roows of finam merged dataset
 # Data Pre processing
 
 # Load New Joint dataset
-
-import pandas as pd
-import numpy as np
 df = pd.read_csv('New_joint_dataset.csv')
 
 # get a summary of the data
@@ -135,8 +132,6 @@ df.to_csv(clean_data_path, index=False)
 print("\nData preprocessing completed. clean data saved to", clean_data_path)
 
 # Trained the Model:
-import pandas as pd
-import numpy as np
 from sklearn.model_selection import train_test_split, RandomizedSearchCV, cross_val_score
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error, mean_squared_error
